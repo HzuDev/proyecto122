@@ -31,7 +31,8 @@ function App() {
       <Router >
         <NavbarTest />
         <Routes>
-          <Route path="/" element={<Home />}  />
+           <Route index element={<Home />} />
+
           <Route path="/acercade" element={<AcercaDe />} /> 
           <Route path="/clientes" element={<Clientes />} /> 
           <Route path="/empresa" element={<Empresa />} /> 
