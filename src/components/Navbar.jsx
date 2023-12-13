@@ -17,7 +17,7 @@ export default () => {
                 
                 <ul className='flex max-lg:block max-lg:w-full lg:space-x-10 max-lg:space-y-4 z-10 items-center'>
                 <li className='max-lg:border-b max-lg:py-2'>
-                    <Link to="/"
+                    <Link to="/inicio"
                     className='hover:text-indigo-600 text-[15px] font-bold text-white block'>
                         Inicio
                     </Link>
