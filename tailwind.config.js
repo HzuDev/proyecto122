@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        'infinite-scroll': 'infinite-scroll 20s linear infinite',
-        'infinite-scroll-two': 'infinite-scroll 20s linear infinite',
+        'infinite-scroll': 'infinite-scroll 60s linear infinite',
+        'infinite-scroll-two': 'infinite-scroll 60s linear infinite',
 
       },
       keyframes: {
