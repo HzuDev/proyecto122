@@ -28,7 +28,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavbarTest />
         <Routes>
           <Route path="/inicio" element={<Home />}  />
