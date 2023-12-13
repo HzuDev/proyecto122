@@ -28,7 +28,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Router >
+      <Router basename="/proyecto122">
         <NavbarTest />
         <Routes>
           <Route path="/" element={<Home />}  />
