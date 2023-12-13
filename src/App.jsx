@@ -31,7 +31,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <NavbarTest />
         <Routes>
-          <Route path="/inicio" element={<Home />}  />
+          <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path="/acercade" element={<AcercaDe />} /> 
           <Route path="/clientes" element={<Clientes />} /> 
           <Route path="/empresa" element={<Empresa />} /> 
