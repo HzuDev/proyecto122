@@ -57,7 +57,7 @@ function Home() {
   return (
     <>
     <section className="min-h-screen flex" >
-        <div className="container max-w-screen-xl m-auto px-6 py-40 md:px-12 lg:py-0 lg:px-14">
+        <div className="container max-w-screen-xl m-auto px-6 py-0 md:px-12 lg:py-0 lg:px-14">
             <div className="flex items-center flex-wrap gap-12 lg:gap-0">
                 <div className="lg:w-5/12 space-y-8">
                     <span className="flex space-x-2">

@@ -41,7 +41,7 @@ export default () => {
                   />
                 </svg>
               </Link>
-              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950  px-6 pb-4 mt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50">
+              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950  px-6 pb-4 mt-5 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50">
                 <li className="border-b py-2 ">
                   <Link
                     to="/acercade"
@@ -97,7 +97,7 @@ export default () => {
                   />
                 </svg>
               </a>
-              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950 px-6 pb-4 mt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px]">
+              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950 px-6 pb-4 mt-5 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px]">
                 <li className="border-b py-2 ">
                   <Link
                     to="/computadoras"
@@ -154,7 +154,7 @@ export default () => {
                   />
                 </svg>
               </Link>
-              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950 px-6 pb-4 mt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50">
+              <ul className="absolute hidden group-hover:block shadow-lg bg-indigo-950 px-6 pb-4 mt-5 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50">
                 <li className="border-b py-2 ">
                   <Link
                     to="/guias-compra"
