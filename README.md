@@ -1,6 +1,25 @@
-# React + Vite
+# LEER IMPORTANTE!!!!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio Creado con Vite + React + Tailwind CSS.
+
+Sitio web donde se simula una tienda de productos digital llamado TecnoVision.Com
+Fomulario de la pagina principal Funcional.
+Carrito de Compras de los productos Funcional.
+Para simular dichas funcionalidades, se hizo el uso useState, useEffect y useContext.
+Para las rutas se uso React-Router-Dom
+ 
+Importante!!
+Solo simula los estados de:
+- Envio de Formulario
+- Agregado de Carrito de Compras
+
+Puede haber bugs visuales aun, por el tiempo dado para el proyecto no se pudo perfeccionar mas.
+Estudiante: Cuenca Nava Ricardo Rene
+Materia: INF-122 "Programacion Web II"
+Lic: Marisol Tellez
+Paralelo: 'A'
+
+
 
 Currently, two official plugins are available:
 

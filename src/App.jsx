@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Navbar from './components/Navbar';
 import NavbarTest from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -20,14 +19,14 @@ import GuiasCompra from './pages/Recursos/GuiasCompra';
 import Galeria from './pages/Recursos/Galeria';
 import Faq from './pages/Recursos/Faq';
 
-
+import { CartProvider } from './functions/cartContext';
 
 import './App.css'
 
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Router basename="/proyecto122">
         <NavbarTest />
         <Routes>
@@ -47,13 +46,10 @@ function App() {
           <Route path="/faq" element={<Faq />} /> 
           
           <Route path="/creditos" element={<Creditos />} />
-          
-         
-    
         </Routes>
         <Footer />
       </Router>
-    </>
+    </CartProvider>
   );
 }
 
