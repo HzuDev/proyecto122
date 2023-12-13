@@ -1,8 +1,11 @@
 import React from 'react';
 import iphone from '../assets/productos/apple.png';
 import { Link } from 'react-router-dom';
+import Form from '../components/Form'
 
 function Home() {
+
+    
 
     const stats = [
         {
@@ -160,52 +163,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">
-                        <form
-                            onSubmit={(e) => e.preventDefault()}
-                            className="space-y-5"
-                        >
-                            <div>
-                                <label className="font-medium">
-                                    Nombre Completo:
-                                </label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-cyan-600 shadow-sm rounded-lg"
-                                />
-                            </div>
-                            <div>
-                                <label className="font-medium">
-                                    Correo Electronico:
-                                </label>
-                                <input
-                                    type="email"
-                                    required
-                                    className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-cyan-600 shadow-sm rounded-lg"
-                                />
-                            </div>
-                            <div>
-                                <label className="font-medium">
-                                    Asunto:
-                                </label>
-                                <input
-                                    type="text"
-                                    required
-                                    className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-cyan-600 shadow-sm rounded-lg"
-                                />
-                            </div>
-                            <div>
-                                <label className="font-medium">
-                                    Mensaje:
-                                </label>
-                                <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-cyan-600 shadow-sm rounded-lg"></textarea>
-                            </div>
-                        
-                            <button class="w-full bg-indigo-950 text-white border border-indigo-800 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-                                    <span class="bg-indigo-800 shadow-indigo-800 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
-                                    Enviar
-                            </button>
-                        </form>
+                       <Form />
                     </div>
                 </div>
             </div>
