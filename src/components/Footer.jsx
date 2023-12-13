@@ -42,16 +42,16 @@ function Footer() {
                 <h6 className="text-lg font-medium text-gray-800 dark:text-gray-200">Empresa</h6>
                 <ul className="mt-4 list-inside space-y-4">
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Acerca De</Link>
+                    <Link to="/acercade" className="transition hover:text-indigo-300">Acerca De</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Clientes</Link>
+                    <Link to="/clientes" className="transition hover:text-indigo-300">Clientes</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Empresa</Link>
+                    <Link to="/empresa" className="transition hover:text-indigo-300">Empresa</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Socios</Link>
+                    <Link to="/socios" className="transition hover:text-indigo-300">Socios</Link>
                   </li>
                   
                 </ul>
@@ -60,16 +60,16 @@ function Footer() {
                 <h6 className="text-lg font-medium text-gray-800 dark:text-gray-200">Productos</h6>
                 <ul className="mt-4 list-inside space-y-4">
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Computadoras y Laptops</Link>
+                    <Link to="/computadoras" className="transition hover:text-indigo-300">Computadoras y Laptops</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Telefonos Moviles </Link>
+                    <Link to="/telefonos" className="transition hover:text-indigo-300">Telefonos Moviles </Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Gaming</Link>
+                    <Link to="/gaming" className="transition hover:text-indigo-300">Gaming</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Complementos</Link>
+                    <Link to="/complementos" className="transition hover:text-indigo-300">Complementos</Link>
                   </li>
                 </ul>
               </div>
@@ -77,21 +77,21 @@ function Footer() {
                 <h6 className="text-lg font-medium text-gray-800 dark:text-gray-200">Recursos</h6>
                 <ul className="mt-4 list-inside space-y-4">
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Guias de Compra</Link>
+                    <Link to="/guias-compra" className="transition hover:text-indigo-300">Guias de Compra</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">Glaeria de Productos</Link>
+                    <Link to="/galeria" className="transition hover:text-indigo-300">Galeria de Productos</Link>
                   </li>
                   <li>
-                    <Link to="/" className="transition hover:text-indigo-300">FAQ</Link>
+                    <Link to="/faq" className="transition hover:text-indigo-300">FAQ</Link>
                   </li>
                   
                 </ul>
               </div>
             </div>
             <div className="flex justify-between border-t border-gray-100 dark:border-gray-400 py-4 pb-8 md:pl-16">
-              <span>&copy; TecnoVision 2023 - Proyecto 122- <span id="year"></span> </span>
-              <span>Derechos resvervados <span className='font-bold text-cyan-800'>@TecnoVision</span></span>
+              <span>&copy; TecnoVision 2023 - Proyecto 122 - <span id="year"></span> </span>
+              <span>Derechos resvervados <span className='font-bold text-cyan-800'>@TecnoVision "Empresa ficticia"</span></span>
             </div>
           </div>
         </div>
