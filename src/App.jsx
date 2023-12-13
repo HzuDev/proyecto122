@@ -28,10 +28,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <NavbarTest />
         <Routes>
-          <Route path="/" element={<Navigate to="/inicio" />} />
+          <Route path="/" element={<Home />}  />
           <Route path="/acercade" element={<AcercaDe />} /> 
           <Route path="/clientes" element={<Clientes />} /> 
           <Route path="/empresa" element={<Empresa />} /> 
