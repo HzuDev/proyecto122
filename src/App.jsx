@@ -32,21 +32,21 @@ function App() {
         <NavbarTest />
         <Routes>
           <Route path="/" element={<Home />}  />
-          <Route path="/proyecto122/acercade" element={<AcercaDe />} /> 
-          <Route path="/proyecto122/clientes" element={<Clientes />} /> 
-          <Route path="/proyecto122/empresa" element={<Empresa />} /> 
-          <Route path="/proyecto122/socios" element={<Socios />} /> 
+          <Route path="/acercade" element={<AcercaDe />} /> 
+          <Route path="/clientes" element={<Clientes />} /> 
+          <Route path="/empresa" element={<Empresa />} /> 
+          <Route path="/socios" element={<Socios />} /> 
 
-          <Route path="/proyecto122/computadoras" element={<Computadoras />} /> 
-          <Route path="/proyecto122/telefonos" element={<Telefonos />} /> 
-          <Route path="/proyecto122/gaming" element={<Gaming />} /> 
-          <Route path="/proyecto122/complementos" element={<Complementos />} /> 
+          <Route path="/computadoras" element={<Computadoras />} /> 
+          <Route path="/telefonos" element={<Telefonos />} /> 
+          <Route path="/gaming" element={<Gaming />} /> 
+          <Route path="/complementos" element={<Complementos />} /> 
 
-          <Route path="/proyecto122/guias-compra" element={<GuiasCompra />} /> 
-          <Route path="/proyecto122/galeria" element={<Galeria />} /> 
-          <Route path="/proyecto122/faq" element={<Faq />} /> 
+          <Route path="/guias-compra" element={<GuiasCompra />} /> 
+          <Route path="/galeria" element={<Galeria />} /> 
+          <Route path="/faq" element={<Faq />} /> 
           
-          <Route path="/proyecto122/creditos" element={<Creditos />} />
+          <Route path="/creditos" element={<Creditos />} />
           
          
     
