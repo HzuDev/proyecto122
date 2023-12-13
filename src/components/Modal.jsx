@@ -14,14 +14,13 @@ function Modal() {
         <div className="absolute">
           
           <div className="absolute w-full rounded-b border-t-0 z-10">
-            <div className="shadow-xl w-64">
+            <div className="shadow-xl w-64 bg-indigo-950">
               {cart.map((item) => (
-                <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                  <div className="p-2 w-12"><img src="https://dummyimage.com/50x50/bababa/0011ff&text=50x50" alt="img product" /></div>
+                <div className="p-2 flex bg-indigo-200 hover:bg-gray-100 cursor-pointer border-b border-indigo-100">
                   <div className="flex-auto text-sm w-32">
                     <div className="font-bold">{item.product}</div>
-                    <div className="truncate">Product description</div>
-                    <div className="text-gray-400">Qt: {item.quantity}</div>
+                    <div className="truncate">Descripcion del Producto</div>
+                    <div className="text-gray-400">Cantidad: {item.quantity}</div>
                   </div>
                   <div className="flex flex-col w-18 font-medium items-end">
                     <div className="w-4 h-4 mb-6 hover:bg-red-200 rounded-full cursor-pointer text-red-700">
@@ -34,17 +33,17 @@ function Modal() {
                         </svg>
                       </button>
                     </div>
-                    ${item.price}
+                    {item.price} USD
                   </div>
                 </div>
               ))}
               <div className="p-4 justify-center flex">
                 <button onClick={() => setShowModal(false)} className="text-base  undefined  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
-                hover:bg-teal-700 hover:text-teal-100 
-                bg-teal-100 
-                text-teal-700 
+                hover:bg-cyan-700 hover:text-cyan-100 
+                bg-cyan-100 
+                text-cyan-700 
                 border duration-200 ease-in-out 
-                border-teal-600 transition">Checkout ${calculateTotal()}</button>
+                border-cyan-600 transition">Pedido {calculateTotal()} USD</button>
               </div>
             </div>
           </div>

@@ -31,7 +31,8 @@
 }
 
 .glass-container {
-  background: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
-  backdrop-filter: blur(8px); /* Efecto de desenfoque */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px); 
+  
 }
 
