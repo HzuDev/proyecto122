@@ -135,10 +135,10 @@ function Home() {
     </section>
     
     <main className="py-24 ">
-            <div className="max-w-screen-xl mx-auto px-4 text-white md:px-8">
-                <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
-                    <div className="max-w-lg space-y-3">
-                        <h3 className="text-cyan-600 font-bold sm:text-2xl gradient-text">
+            <div className="max-w-screen-xl mx-auto px-4 text-white md:px-8 ">
+                <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none ">
+                    <div className="max-w-lg space-y-3 my-28 ">
+                        <h3 className="text-cyan-600 font-bold sm:text-2xl gradient-text ">
                             Contacto
                         </h3>
                         <p className="text-cyan-800 text-3xl font-semibold sm:text-4xl gradient-text">
