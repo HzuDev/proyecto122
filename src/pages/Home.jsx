@@ -1,7 +1,8 @@
 import React from 'react';
 import iphone from '../assets/productos/apple.png';
 import { Link } from 'react-router-dom';
-import Form from '../components/Form'
+import Form from '../components/Form';
+
 
 function Home() {
 
@@ -55,8 +56,8 @@ function Home() {
     ];
   return (
     <>
-    <section className="min-h-screen flex">
-        <div className="container m-auto px-6 py-40 md:px-12 lg:py-0 lg:px-7">
+    <section className="min-h-screen flex" >
+        <div className="container max-w-screen-xl m-auto px-6 py-40 md:px-12 lg:py-0 lg:px-14">
             <div className="flex items-center flex-wrap gap-12 lg:gap-0">
                 <div className="lg:w-5/12 space-y-8">
                     <span className="flex space-x-2">
@@ -67,7 +68,7 @@ function Home() {
                     <p className="text-xl text-gray-700 dark:text-gray-300">Descubre la última tecnología, explora nuestras ofertas exclusivas y disfruta de una experiencia de compra sin igual. Tu satisfacción es nuestra prioridad.</p>
                     
                     <div className="flex space-x-4">
-                        <Link to="/" class="bg-indigo-950 text-white border border-indigo-800 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+                        <Link to="/" class="md:w-full bg-indigo-950 md:text-center text-white border border-indigo-800 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
                              <span class="bg-indigo-800 shadow-indigo-800 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                                     Comprar Ahora!
                         </Link>
@@ -75,7 +76,7 @@ function Home() {
                             to="/telefonos"
                             type="button"
                             title="Ver catalogo"
-                            className="group w-full py-3 px-6 text-center transition border border-transparent hover:border-indigo-900 bg:active:bg-indigo-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
+                            className="group md:w-full py-3 px-6 md:text-center transition border border-transparent hover:border-indigo-900 bg:active:bg-indigo-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
                             >
                             <span className="block text-gray-700 dark:text-white font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
                                 Ver productos
@@ -85,8 +86,8 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="hidden relative md:block lg:w-7/12">
-                    <div aria-hidden="true" className="absolute inset-0 m-auto w-[30rem] h-[30rem] rounded-full bg-yellow-200">
+                <div className="hidden relative md:block lg:w-7/12 md:pt-28">
+                    <div aria-hidden="true" className=" absolute inset-0 m-auto w-[30rem] h-[30rem] rounded-full bg-yellow-200">
 
                     </div>
                     <img src={ iphone } className="relative ml-auto" alt=""/>
@@ -95,8 +96,9 @@ function Home() {
         </div>
         
     </section>
-    <section className="py-28 bg-gray-900 glass-container ">
-    <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
+
+    <section className="py-28 bg-gray-900 glass-container  ">
+    <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8  ">
         <div className="max-w-2xl xl:mx-auto xl:text-center">
             <h3 className="text-white text-3xl font-semibold sm:text-4xl">
                  Nuestros clientes siempre están contentos.
@@ -105,12 +107,12 @@ function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.
             </p>
         </div>
-        <div className="mt-12">
-            <ul className="flex-wrap gap-x-12 gap-y-10 items-center space-y-8 sm:space-y-0 sm:flex xl:justify-center">
+        <div className="mt-12 flex ">
+            <ul className="flex-wrap gap-x-12 gap-y-10 space-y-8 sm:space-y-0 sm:flex xl:justify-center">
                 
                 {
                     stats.map((item, idx) => (
-                        <li key={idx} className="sm:max-w-[15rem]">
+                        <li key={idx} className="sm:max-w-[15rem] flex justify-center flex-col items-center ">
                             
                             <div class="group bg-transparent duration-500 w-44 h-44 flex text-neutral-600 flex-col justify-center items-center relative rounded-xl overflow-hidden shadow-md">
                                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="absolute blur z-10 fill-cyan-700 duration-500 group-hover:blur-none group-hover:scale-105">
